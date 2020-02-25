@@ -1,1 +1,1 @@
-# Dictionary
+C Dictionary HASH TABLE Implementation
