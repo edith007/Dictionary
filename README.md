@@ -8,3 +8,5 @@ To provide an implementation of a dictionary, that contains words with their rel
 * 'Dictionary.h' -> Contains msotly functions prototypes and Constants.
 * 'Dictionary.c' -> Conatins the load, size, check, and Unload function.
 * 'speller.c'    -> Conatins the main part of the program and the benchmarking method.
+
+##Implementation Notes
