@@ -39,3 +39,5 @@ An example of the hash table hierarchy is shown below:
 ![diagram](/diagram.png)
 
 A bucket might have multiple matching values, so we’ll use a linked list to store all of them horizontally. (We call this a collision, when two values match in some way.)But in the worst case, all the names might start with the same letter, so we might end up with the equivalent of a single linked list again. We might look at the first two letters, and allocate enough buckets for 26*26 possible hashed values, or even the first three letters, and now we’ll need 26*26*26 buckets. But we could still have a worst case where all our values start with the same three characters, so the running time for search is O(n). In practice, though, we can get closer to O(1) if we have about as many buckets as possible values, especially if we have an ideal hash function, where we can sort our inputs into unique buckets.
+
+![](https://github.com/edith007/Dictionary/blob/master/speller.gif?raw=true)
